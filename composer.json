@@ -1,0 +1,21 @@
+{
+    "name": "klphp/yii2-rbac",
+    "description": "yii2-rbac",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","rbac"],
+    "license": "BSD-4-Clause",
+    "authors": [
+        {
+            "name": "kelei",
+            "email": "5735570@qq.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "klphp\\rbac\\": ""
+        }
+    }
+}
