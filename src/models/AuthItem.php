@@ -24,7 +24,7 @@ use yii\behaviors\TimestampBehavior;
  * @property AuthItem[] $children
  * @property AuthItem[] $parents
  */
-class AuthItem extends yii\db\ActiveRecord
+class AuthItem extends \yii\db\ActiveRecord
 {
 
     public $addChilds;
